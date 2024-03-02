@@ -6,70 +6,84 @@
     <title>My PGP Public Key</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Additional styles or custom styling can be added here -->
+    <style>
+        body {
+            background-color: #121212; /* Set a cool black background color */
+            color: #ffffff; /* Set text color to white */
+        }
+        .container {
+            margin-top: 50px;
+        }
+        pre {
+            background-color: #212121; /* Set a darker black for the pre element */
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
 
 <div class="container mt-5">
     <h2 class="text-center mb-4">My PGP Public Key</h2>
-    <pre id="pgpPublicKey" class="bg-light p-3 border rounded">
-        -----BEGIN PGP PUBLIC KEY BLOCK-----
-        Comment: User-ID:	Divija <divija027@proton.me>
-        Comment: Created:	02/03/24 11:36 AM
-        Comment: Expires:	02/03/26 12:00 PM
-        Comment: Type:	4,096-bit RSA (secret key available)
-        Comment: Usage:	Signing, Encryption, Certifying User-IDs
-        Comment: Fingerprint:	10F1EF361E456278BDCB261647815909A4595A77
-        
-        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
-        GKuucg==
-        =JfY6
-        -----END PGP PUBLIC KEY BLOCK-----
+    <pre id="pgpPublicKey" class="p-3 border rounded">
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User-ID:	Divija <divija027@proton.me>
+Comment: Created:	02/03/24 11:36 AM
+Comment: Expires:	02/03/26 12:00 PM
+Comment: Type:	4,096-bit RSA (secret key available)
+Comment: Usage:	Signing, Encryption, Certifying User-IDs
+Comment: Fingerprint:	10F1EF361E456278BDCB261647815909A4595A77
+
+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
+GKuucg==
+=JfY6
+-----END PGP PUBLIC KEY BLOCK-----
+
         
     </pre>
 </div>
