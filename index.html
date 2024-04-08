@@ -83,6 +83,648 @@ jn6re48V1CnF+RbH5KCsfB1V8NcYsRb4/qgcgMaJocQ5GpIghiDGY8LqcScRvbEC
 GKuucg==
 =JfY6
 -----END PGP PUBLIC KEY BLOCK-----
+    
+    1.Use HTML5 for performing following tasks: i) Add image ii) Link to different Pages and Same Pages
+iii) Redirecting current page to another page after 5 seconds using HTML5 meta tag
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML5 Tasks</title>
+<meta http-equiv="refresh"
+content="5;url=https://www.pexels.com/search/aesthetic/">
+</head>
+<body>
+<!-- i) Adding an image -->
+<img src="img.JPEG" alt="imagename" width="100px" height="150px">
+<!-- ii) Linking to different pages and same pages -->
+<!-- Linking to different pages -->
+<a href="https://www.pexels.com/search/aesthetic/">click here</a>
+<!-- Linking to the same page -->
+<a href="#section1">Section1</a>
+<a href="#section2">section2</a>
+<!-- Some content -->
+<div id="section1">
+<h2>Section 1</h2>
+<p>Hritwika Varma.</p>
+</div>
+<div id="section2">
+<h2>Section 2</h2>
+<p>19 years xtfytguyhgbhjbsgdusygdyuduhbjhb</p>
+</div>
+</body>
+</html>
+    
+2. Change the tag li to have the following properties: i) Margin of 5px ii) Padding of 10px to the top,
+20px to the right, 10px to the bottom, and 20px to the left iii) Also demonstrate list style type with
+user defined image logos
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>List Styling</title>
+<style>
+/* Style for the list items */
+li {
+margin: 5px;
+padding: 10px 20px 10px 20px;
+list-style-type: none; /* Removing default list style */
+background-image: url('R.PNG'); /* User-defined image for list
+item marker */
+background-size: 20px; /* Size of the background image */
+background-repeat: no-repeat; /* Ensure the image doesn't repeat
+*/
+background-position: left center; /* Position of the image */
+text-indent: 40px; /* Space for the image */
+}
+</style>
+</head>
+<body>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+</body>
+</html>
+    
+3. Create a webpage with the following specifications. i) Display heading ‘My Favourite movie’ in the
+highest heading ii) Display links and change the colour of the link based on user activity iii) Add a
+background image iv) Add an Image of your favourite movie and display the coloured photo when
+user places pointer on the image
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Favorite Movie</title>
+<style>
+/* Background image */
+body {
+background-image: url('mov.JPEG');
+background-size: cover;
+background-repeat: no-repeat;
+font-family: Arial, sans-serif;
+color: white;
+}
+/* Heading */
+h1 {
+text-align: center;
+margin-top: 50px;
+}
+/* Links */
+a {
+color: white;
+text-decoration: none;
+}
+a:hover {
+color: cyan; /* Change color on hover */
+}
+/* Image */
+#movieImage {
+display: block;
+margin: 0 auto;
+filter: grayscale(100%);
+width: 300px; /* Adjust the width as per your image */
+border-radius: 10px;
+}
+#movieImage:hover {
+filter: grayscale(0%); /* Reduce brightness on hover */
+}
+</style>
+</head>
+<body>
+<h1>My Favorite Movie</h1>
+<div style="text-align: center;">
+<!-- Links -->
+<a href="#">Link 1</a> |
+<a href="#">Link 2</a> |
+<a href="#">Link 3</a>
+</div>
+<!-- Image of favorite movie -->
+<img id="movieImage" src="jwm.JPEG" alt="Favorite Movie" width="300"
+height="300">
+</body>
+</html>
+    
+4. Design a web page with HTML describing your College use paragraph and list tags. Apply suitable
+colours to distinguish keywords, font style. Create 2 links wherever necessary and embed a video.
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My College</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+color: #333;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #007bff;
+color: white;
+padding: 20px;
+text-align: center;
+}
+main {
+padding: 20px;
+}
+h1 {
+color: #091d0c;
+}
+p {
+line-height: 1.6;
+font-size: 18px;
+}
+ul {
+margin-bottom: 20px;
+}
+li {
+list-style-type: circle;
+margin-left: 20px;
+}
+a {
+color: #007bff;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+iframe {
+width: 100%;
+height: 400px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>NMAM INSTITUTE OF TECHNOLOGY</h1>
+</header>
+<main>
+<p>Welcome to our prestigious college, where learning meets
+excellence.</p>
+<h2>About Us</h2>
+<p>We offer a wide range of programs and courses designed to prepare
+students for successful careers in various fields.</p>
+<h2>Why Choose Us?</h2>
+<ul>
+<li>Experienced faculty</li>
+<li>State-of-the-art facilities</li>
+<li>Strong focus on practical learning</li>
+<li>Extensive extracurricular activities</li>
+</ul>
+<p>For more information, visit our <a
+href="https://nmamit.nitte.edu.in/vision-mission.php">website</a> or contact
+us <a href="https://nmamit.nitte.edu.in/about-nmamit-nitte.php">For more
+info</a>.</p>
+<iframe src="https://www.youtube.com/embed/LqChesrEOeg?si=eZS5-
+RhQvSKTfQrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+gyroscope; picture-in-picture" allowfullscreen></iframe>
+</main>
+</body>
+</html>
+    
+5. Develop a JavaScript program to get CGPA as input and print the percentage equivalence of CGPA.
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGPA to Percentage</title>
+<script>
+// Function to calculate percentage equivalence of CGPA
+function calculatePercentageEquivalence(cgpa) {
+// CGPA to percentage formula
+var percentage = (cgpa - 0.75)*10;
+return percentage;
+}
+// Function to handle button click event
+function calculateCGPAPercentage() {
+var cgpaInput = document.getElementById("cgpa");
+var cgpa = parseFloat(cgpaInput.value);
+// Check if input is valid
+if (!isNaN(cgpa)) {
+// Check if CGPA is within valid range (0 to 10)
+if (cgpa >= 0 && cgpa <= 10) {
+var percentage = calculatePercentageEquivalence(cgpa);
+document.getElementById("result").innerHTML = "Your CGPA
+equivalent percentage is: " + percentage.toFixed(2) + "%";
+} else {
+document.getElementById("result").innerHTML = "Invalid
+CGPA. CGPA should be between 0 and 10.";
+}
+} else {
+document.getElementById("result").innerHTML = "Invalid input.
+Please enter a valid number for CGPA.";
+}
+}
+</script>
+</head>
+<body>
+<h1>CGPA to Percentage Converter</h1>
+<label for="cgpa">Enter your CGPA:</label>
+<input type="number" id="cgpa" step="0.01">
+<button onclick="calculateCGPAPercentage()">Calculate</button>
+<p id="result"></p>
+</body>
+</html>
+    
+6. Write JavaScript to validate the following fields of the Registration form. i) Name (field cannot be
+empty) ii) Age (Number validation) iii) Password iv)Confirm Password
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+.error {
+color: red;
+}
+</style>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form id="registrationForm" onsubmit="return validateForm()">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<br>
+<label for="age">Age:</label>
+<input type="text" id="age" name="age">
+<br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<br>
+<label for="confirmPassword">Confirm Password:</label>
+<input type="password" id="confirmPassword" name="confirmPassword">
+<br>
+<input type="submit" value="Register">
+</form>
+<script>
+function validateForm() {
+var name = document.getElementById('name').value;
+var age = document.getElementById('age').value;
+var password = document.getElementById('password').value;
+var confirmPassword =
+document.getElementById('confirmPassword').value;
+// Name validation
+if (name.trim() === "") {
+alert("Name cannot be empty");
+return false;
+}
+// Age validation
+if (isNaN(age) || age <= 0) {
+alert("Age must be a valid number greater than 0");
+return false;
+}
+// Password validation
+if (password.trim() === "") {
+alert("Password cannot be empty");
+return false;
+}
+// Confirm password validation
+if (confirmPassword.trim() === "") {
+alert("Confirm Password cannot be empty");
+return false;
+}
+if (password !== confirmPassword) {
+alert("Passwords do not match");
+return false;
+}
+alert("Form is valid. Submitted successfully!");
+return true;
+}
+</script>
+</body>
+</html>
+    
+7. Write a JavaScript to design a simple calculator to perform the following operations: sum, product,
+difference and quotient.
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Calculator</title>
+</head>
+<body>
+<h2>Simple Calculator</h2>
+<input type="number" id="num1">
+<select id="operator">
+<option value="sum">+</option>
+<option value="difference">-</option>
+<option value="product">*</option>
+<option value="quotient">/</option>
+</select>
+<input type="number" id="num2">
+<button onclick="calculate()">Calculate</button>
+<p id="result"></p>
+<script>
+function calculate() {
+var num1 = parseFloat(document.getElementById('num1').value);
+var num2 = parseFloat(document.getElementById('num2').value);
+var operator = document.getElementById('operator').value;
+var result;
+switch (operator) {
+case 'sum':
+result = num1 + num2;
+break;
+case 'difference':
+result = num1 - num2;
+break;
+case 'product':
+result = num1 * num2;
+break;
+case 'quotient':
+if (num2 !== 0) {
+result = num1 / num2;
+} else {
+result = "Cannot divide by zero";
+}
+break;
+default:
+result = "Invalid operator";
+}
+document.getElementById('result').innerText = "Result: " + result;
+}
+</script>
+</body>
+</html>
+    
+11. Write a PHP program to connect to the database. Create a table named “Student” with following
+fields (sno, sname, percentage). Insert 3 records of your choice. Delete a particular record
+    
+<?php
+// Database connection
+$servername = "localhost"; // Change if your database is hosted elsewhere
+$username = "root"; // Your MySQL username
+$password = ""; // Your MySQL password
+$database = "student"; // Your MySQL database name
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+// Check connection
+if ($conn->connect_error) {
+die("Connection failed: " . $conn->connect_error);
+}
+else
+{
+echo "success <br>";
+}
+/*
+// Create Student table
+$sql_create_table = "CREATE TABLE Student11 (
+sno INT(6) ,
+sname VARCHAR(50) ,
+percentage DECIMAL(5,2)
+)";
+if ($conn->query($sql_create_table) === TRUE) {
+echo "Table Student created successfully<br>";
+} else {
+echo "Error creating table: " . $conn->error;
+}
+*/
+/*
+// Insert records
+$sql_insert_records = "INSERT INTO Student11 (sname, percentage) VALUES
+('John', 85.5),
+('Emma', 92.3),
+('Mich', 78.9)";
+if ($conn->query($sql_insert_records) === TRUE) {
+echo "Records inserted successfully<br>";
+} else {
+echo "Error inserting records: " . $conn->error;
+}
+*/
+// Delete a particular record
+$record_to_delete = 'John'; // Delete the record with sname = "John"
+$sql_delete_record = "DELETE FROM Student11 WHERE sname =
+'$record_to_delete'";
+if ($conn->query($sql_delete_record) === TRUE) {
+echo "Record with sname = $record_to_delete deleted successfully<br>";
+} else {
+echo "Error deleting record: " . $conn->error;
+}
+/*
+// Close connection
+$conn->close();
+?>
+*/
+    
+14. Write a PHP code to Connect to Database, Create a table College (Dname,
+Dno,Number_Of_faculty) Insert 3 records of your choice. Display the message “Records inserted”
+after successful insertion
+    
+<?php
+// Database connection
+$servername = "localhost"; // Change if your database is hosted elsewhere
+$username = "root"; // Your MySQL username
+$password = ""; // Your MySQL password
+$database = "college"; // Your MySQL database name
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+// Check connection
+if ($conn->connect_error) {
+die("Connection failed: " . $conn->connect_error);
+}
+else{
+echo"success<br>";
+}
+/*
+// Create College table
+$sql_create_table = "CREATE TABLE College (
+Dname VARCHAR(50),
+Dno INT(6) ,
+Number_Of_faculty INT(6)
+)";
+if ($conn->query($sql_create_table) === TRUE) {
+echo "Table College created successfully<br>";
+} else {
+echo "Error creating table: " . $conn->error;
+}
+*/
+// Insert records
+$sql_insert_records = "INSERT INTO College (Dname, Number_Of_faculty) VALUES
+('Computer Science', 10),
+('Mathematics', 8),
+('Physics', 6)";
+if ($conn->query($sql_insert_records) === TRUE) {
+echo "Records inserted successfully<br>";
+} else {
+echo "Error inserting records: " . $conn->error;
+}
+/*
+// Close connection
+$conn->close();
+?>
+*/
+    
+8.Create a ReactJS component utilizing functional components to render a subscribe button. Upon
+clicking the button, display a message “Thank you for subscribing”
+    
+Ourfile.js
+import React, { useState } from 'react';
+const SubscribeButton = () => {
+const [subscribed, setSubscribed] = useState(false);
+const handleSubscribe = () => {
+setSubscribed(true);
+};
+return (
+<div>
+{!subscribed ? (
+<button onClick={handleSubscribe}>Subscribe</button>
+) : (
+<p>Thank you for subscribing</p>
+)}
+</div>
+);
+};
+export default SubscribeButton;
+App.js
+import React from 'react';
+import SubscribeButton from './1.js'; // Import the SubscribeButton component
+function App() {
+return (
+<div className="App">
+<h1>Welcome to My Website</h1>
+<SubscribeButton /> {/* Render the SubscribeButton component */}
+</div>
+);
+}
+export default App;
+    
+10. Write a React JS code to demonstrate how to locally manage a component’s state
+import React, { useState } from 'react';
+    
+function Counter() {
+// Define state variable 'count' and a function to update it 'setCount'
+const [count, setCount] = useState(0);
+return (
+<div>
+<h2>Counter</h2>
+<p>Count: {count}</p>
+{/* Button to increment count */}
+<button onClick={() => setCount(count + 1)}>Increment</button>
+{/* Button to decrement count */}
+<button onClick={() => setCount(count - 1)}>Decrement</button>
+</div>
+);
+}
+export default Counter;
+import React from 'react';
+import Counter from './Third.js'; // Import the handleLogin function
+function App() {
+return (
+<div className="App">
+<h1>Myapp</h1>
+<Counter /> {/* Render the handleLogin function */}
+</div>
+);
+}
+export default App;
+    
+12. Demonstrate Inline Styling (color, backgroundColor, margin, font-weight,marginBottom) with JSX
+in React JS. Also display image, add links to the same page
+    
+import React from 'react';
+function App() {
+return (
+<div>
+<h1 style={{ color: 'blue', backgroundColor: 'lightgrey', margin:
+'20px', fontWeight: 'bold', marginBottom: '10px' }}>
+Inline Styling Example
+</h1>
+<p style={{ color: 'green', margin: '10px', fontWeight: 'normal',
+marginBottom: '20px' }}>
+This is a paragraph demonstrating inline styling.
+</p>
+<img src="https://th.bing.com/th/id/OIP.LRCbygP9AZfeK3cNWE-
+OIQHaE8?rs=1&pid=ImgDetMain" alt="Placeholder" style={{ margin: '10px' }} />
+<br />
+<a href="#section1" style={{ color: 'red', margin: '10px' }}>Section
+1</a>
+<a href="#section2" style={{ color: 'red', margin: '10px' }}>Section
+2</a>
+<br /><br />
+<div id="section1" style={{ backgroundColor: 'lightblue', padding:
+'10px', margin: '10px' }}>
+Section 1 content
+</div>
+<div id="section2" style={{ backgroundColor: 'lightgreen', padding:
+'10px', margin: '10px' }}>
+Section 2 content
+</div>
+</div>
+);
+}
+export default App;
+import React from 'react';
+import App from './Inline.js'; // Import the handleLogin function
+function MainApp() {
+return (
+<div className="App">
+<App /> {/* Render the handleLogin function */}
+</div>
+);
+}
+export default MainApp;
+    
+9. Develop a React.js application featuring a login form where users can input their username and
+password. Upon clicking the login button, the application should display a 'Welcome' message
+    
+import React, { useState } from 'react';
+function App() {
+const [username, setUsername] = useState('');
+const [password, setPassword] = useState('');
+const [loggedIn, setLoggedIn] = useState(false);
+const handleLogin = () => {
+// Remove validation
+// Simply set loggedIn state to true
+setLoggedIn(true);
+};
+return (
+<div>
+{!loggedIn ? (
+<div>
+<h2>Login</h2>
+<label>Username:</label>
+<input type="text" value={username} onChange={(e) =>
+setUsername(e.target.value)} /><br />
+<label>Password:</label>
+<input type="password" value={password} onChange={(e) =>
+setPassword(e.target.value)} /><br />
+<button onClick={handleLogin}>Login</button>
+</div>
+) : (
+<h2>Welcome</h2>
+)}
+</div>
+);
+};
+export default App;
+import React from 'react';
+import Login from './Login.js';
+function App() {
+return (
+<div className="App">
+<Login />
+</div>
+);
+}
+export default App;
+
+    
 
         
     </pre>
